@@ -2,7 +2,7 @@
   <div className="card">
     <div id="one">
       <img src="./assets/logosmall.png" className="ml-auto mr-auto w-[40%] rounded-full"/>
-      <h1 className="text-7xl font-bold text-center mt-8">RythmHacks</h1>
+      <h1 className="font-bold text-center mt-8">RythmHacks</h1>
       <p className="text-[1.25rem] text-center mt-6">Here are some important links and resources for RythmHacks!</p>
     </div>
     <div id="two">
