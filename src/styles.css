@@ -1,0 +1,9 @@
+@font-face {
+  font-family: Satoshi;
+  src: url('./assets/Satoshi-Regular.woff');
+}
+
+body {
+  margin: 0;
+  font-family: Satoshi;
+}

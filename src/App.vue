@@ -1,0 +1,3 @@
+<template>
+  MONKE
+</template>
