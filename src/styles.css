@@ -1,3 +1,8 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: Satoshi;
   src: url('./assets/Satoshi-Regular.woff');
@@ -6,4 +11,49 @@
 body {
   margin: 0;
   font-family: Satoshi;
+  color: #eee;
+  background-color: #1a1f2b;
+  background-image: radial-gradient(#777 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -19px ;
+  background-attachment: fixed;
+}
+
+.card {
+  width: 35%;
+  margin: 2% auto;
+  border: 1px solid red;
+  background-color: #373842;
+  border-radius: 15px;
+  border: 5px solid #121212;
+}
+
+#one {
+  padding: 2vw 3vw;
+  background-color: #121212;
+}
+#two {
+  padding: 2vw 3vw;
+}
+
+a {
+  font-size: 1.5rem;
+  border: 2px solid #777;
+  padding: 0.75rem 1.25rem;
+  border-radius: 31px;
+  width: 100%;
+  cursor: pointer;
+  user-select: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+a:hover {
+  transform: scale(1.05);
+  border: 2px solid #87AFC3;
+  color: #87AFC3;
 }
