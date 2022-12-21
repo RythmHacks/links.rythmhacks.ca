@@ -46,7 +46,7 @@ body {
   padding: 2vw 3vw;
 }
 
-a {
+button {
   font-size: max(1.5vw, 1rem);
   border: 2px solid #777;
   padding: 0.75rem 1.25rem;
@@ -63,7 +63,7 @@ a {
   margin-bottom: 1rem;
 }
 
-a:hover {
+button:hover {
   transform: scale(1.05);
   border: 2px solid #87AFC3;
   color: #87AFC3;
