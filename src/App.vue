@@ -12,7 +12,7 @@ export default {
 <template>
   <div className="card">
     <div id="one">
-      <img src="./assets/logosmall.png" className="ml-auto mr-auto w-[40%] rounded-full cursor-pointer hover:scale-105 duration-300" @click="onClick('rythmhacks.ca')"/>
+      <img src="./assets/logosmall.png" className="ml-auto mr-auto w-[40%] rounded-full cursor-pointer hover:scale-105 duration-300" @click="onClick('https://www.rythmhacks.ca/')"/>
       <h1 className="font-bold text-center mt-8">RythmHacks</h1>
       <p className="text-[1.25rem] text-center mt-6">Here are some important links and resources for RythmHacks!</p>
     </div>
