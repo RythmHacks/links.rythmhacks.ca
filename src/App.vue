@@ -17,10 +17,6 @@ export default {
       <p className="text-[1.25rem] text-center mt-6">Here are some important links and resources for RythmHacks!</p>
     </div>
     <div id="two">
-      <button @click="onClick('https://forms.gle/4Az622QCitExXvXx6')">
-        Apply to be an organizer!
-        <i class="bi bi-people"></i>
-      </button>
       <button @click="onClick('https://www.rythmhacks.ca/')">
         Check out our cool website!
         <i class="bi bi-arrow-up-right-square"></i>
