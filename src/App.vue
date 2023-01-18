@@ -37,6 +37,10 @@ export default {
         GitHub
         <i class="bi bi-github"></i>
       </button>
+      <button @click="onClick('mailto:rythmhacks@gmail.com')">
+        Got a question? Email us!
+        <i class="bi bi-envelope"></i>
+      </button>
       <p className="text-center opacity-60">
         Made with <a href='https://vuejs.org/' class="text-[#43D292]">Vue</a>, <a href='https://tailwindcss.com/' class="text-[#39BCF8]">Tailwind</a>, and 🐒🧠
         <!-- <br/>--- -->
