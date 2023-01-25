@@ -21,15 +21,15 @@ export default {
         Check out our cool website!
         <i class="bi bi-arrow-up-right-square"></i>
       </button>
-      <button @click="onClick('https://www.instagram.com/rythm.hacks/')">
+      <button @click="onClick('https://www.instagram.com/rythm.hacks/')" className="hover:border-[#D62976] hover:text-[#F6D373]">
         Instagram
         <i class="bi bi-instagram"></i>
       </button>
-      <button @click="onClick('https://www.linkedin.com/company/rythmhacks/')">
+      <button @click="onClick('https://www.linkedin.com/company/rythmhacks/')" className="hover:border-[#0C63BC] hover:text-[#0C63BC]">
         LinkedIn
         <i class="bi bi-linkedin"></i>
       </button>
-      <button @click="onClick('https://twitter.com/rythmhacks/')">
+      <button @click="onClick('https://twitter.com/rythmhacks/')" className="hover:border-[#1C9CEA] hover:text-[#1C9CEA]">
         Twitter
         <i class="bi bi-twitter"></i>
       </button>
