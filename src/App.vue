@@ -44,7 +44,7 @@ export default {
       <p className="text-center opacity-60">
         Made with <a href='https://vuejs.org/' class="text-[#43D292]">Vue</a>, <a href='https://tailwindcss.com/' class="text-[#39BCF8]">Tailwind</a>, and 🐒🧠
         <!-- <br/>--- -->
-        <br/>RythmHacks 2022-23
+        <br/>© RythmHacks 2022-23
       </p>
     </div>
   </div>
