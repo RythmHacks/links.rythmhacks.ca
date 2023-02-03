@@ -21,6 +21,10 @@ export default {
         Check out our cool website!
         <i class="bi bi-arrow-up-right-square"></i>
       </button>
+      <button @click="onClick('https://medium.com/@rythmhacks')">
+        Read some blog posts!
+        <i class="bi bi-chat-left-text"></i>
+      </button>
       <button @click="onClick('https://www.instagram.com/rythm.hacks/')" className="hover:border-[#D62976] hover:text-[#F6D373]">
         Instagram
         <i class="bi bi-instagram"></i>
