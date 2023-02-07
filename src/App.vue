@@ -17,6 +17,10 @@ export default {
       <p className="text-[1.25rem] text-center mt-6">Here are some important links and resources for RythmHacks!</p>
     </div>
     <div id="two">
+      <button @click="onClick('https://opnform.com/forms/rythmhacks-pre-registration')">
+        Pre-register now!
+        <i class="bi bi-clipboard-check"></i>
+      </button>
       <button @click="onClick('https://www.rythmhacks.ca/')">
         Check out our cool website!
         <i class="bi bi-arrow-up-right-square"></i>
@@ -48,7 +52,7 @@ export default {
       <p className="text-center opacity-60">
         Made with <a href='https://vuejs.org/' class="text-[#43D292]">Vue</a>, <a href='https://tailwindcss.com/' class="text-[#39BCF8]">Tailwind</a>, and 🐒🧠
         <!-- <br/>--- -->
-        <br/>© RythmHacks 2022-23
+        <br/>© RythmHacks 2023
       </p>
     </div>
   </div>
