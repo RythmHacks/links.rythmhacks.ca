@@ -17,13 +17,13 @@ export default {
       <p className="text-[1.25rem] text-center mt-6">Here are some important links and resources for RythmHacks!</p>
     </div>
     <div id="two">
-      <button @click="onClick('https://www.rythmhacks.ca/documents/prospectus.pdf')">
+      <button @click="onClick('https://dash.rythmhacks.ca')" className="bg-accent border-accent hover:text-white">
+        Register now!
+        <i class="bi bi-clipboard-check"></i>
+      </button>
+      <button @click="onClick('https://www.rythmhacks.ca/documents/prospectus.pdf')" className="hover:border-[#00bf23] hover:text-[#00bf23]">
         Sponsor us!
         <i class="bi bi-currency-dollar"></i>
-      </button>
-      <button @click="onClick('https://opnform.com/forms/rythmhacks-pre-registration')" className="hover:border-[#00bf23] hover:text-[#00bf23]">
-        Pre-register now!
-        <i class="bi bi-clipboard-check"></i>
       </button>
       <button @click="onClick('https://www.rythmhacks.ca/')">
         Check out our cool website!
