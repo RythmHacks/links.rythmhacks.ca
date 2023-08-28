@@ -21,6 +21,10 @@ export default {
         Hacker Dashboard
         <i class="bi bi-clipboard-check"></i>
       </button>
+      <button @click="onClick('https://rythmhacks2023.devpost.com')">
+        Devpost
+        <i class="bi bi-person-badge"></i>
+      </button>
       <button @click="onClick('https://www.rythmhacks.ca/documents/prospectus.pdf')" className="hover:border-[#00bf23] hover:text-[#00bf23]">
         Sponsor us!
         <i class="bi bi-currency-dollar"></i>
