@@ -18,7 +18,7 @@ export default {
     </div>
     <div id="two">
       <button @click="onClick('https://dash.rythmhacks.ca')" className="bg-accent border-accent hover:text-white">
-        Register now!
+        Hacker Dashboard
         <i class="bi bi-clipboard-check"></i>
       </button>
       <button @click="onClick('https://www.rythmhacks.ca/documents/prospectus.pdf')" className="hover:border-[#00bf23] hover:text-[#00bf23]">
